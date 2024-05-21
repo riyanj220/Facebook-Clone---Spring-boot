@@ -1,5 +1,7 @@
 package com.riyanJ.facebookcloneservice.service;
 
-public interface PostService {
+import com.riyanJ.facebookcloneservice.model.Post;
 
+public interface PostService {
+    Post addPost(Post post);
 }

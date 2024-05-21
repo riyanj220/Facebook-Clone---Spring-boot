@@ -25,7 +25,6 @@ public class PostEntity {
     @GenericGenerator(name = "uuid" , strategy = "uuid2")
     private String id;
 
-
     @Lob
     private String post;
     private String name;
